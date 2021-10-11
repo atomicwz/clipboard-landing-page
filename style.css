@@ -1,0 +1,186 @@
+/* ESTILOS GERAIS */
+:root{
+    --color-p: hsl(201, 11%, 66%);
+    --color-h2: hsl(210, 10%, 33%);
+    --font-size-btn: font-size: 1.4rem;
+}
+
+*{
+    font-size: 18px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+h1, h2, h4{
+    color: var(--color-h2);
+    text-align: center;
+}
+h2{
+    font-size: 1.8rem;
+}
+p{
+    text-align: center;
+    color: var(--color-p);
+}
+
+
+                                                    /* CONTÉUDO HEADER */
+
+.container-header{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.header-content{
+    gap: 50px;
+    background: url(images/bg-header-desktop.png) no-repeat center/cover;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-content h1{
+    font-size: 2.8rem;
+}
+.header-content p{
+    font-weight: 300;
+    margin-top: 40px;
+    width: 70%;
+    font-size: 1.2rem;
+}
+.btn-header{
+    display: flex;
+    gap: 20px;
+
+}
+.btn-header .btn-mac{
+    background: hsl(171, 66%, 44%);
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 2px 0px 2px hsl(171, 66%, 40%); 
+    box-shadow: 0px 2px 0px 2px hsl(171, 66%, 40%);
+}
+    .btn-header .btn-ios{
+    background:hsl(233, 100%, 69%);
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 2px 0px 2px hsl(233, 100%, 65%); 
+    box-shadow: 0px 2px 0px 2px hsl(233, 100%, 65%);
+}
+.btn-header .btn-ios:hover{
+    background:hsl(233, 100%, 75%);
+    -webkit-box-shadow: 0px 2px 0px 2px hsl(233, 100%, 73%); 
+    box-shadow: 0px 2px 0px 2px hsl(233, 100%, 73%);
+}
+.btn-header .btn-mac:hover{
+    background:hsl(171, 66%, 50%);
+    -webkit-box-shadow: 0px 2px 0px 2px hsl(171, 66%, 47%); 
+    box-shadow: 0px 2px 0px 2px hsl(171, 66%, 47%);
+}
+.btn-header a{
+    display: block;
+    padding: 20px 40px 20px 40px;
+    width: 17rem;
+    color: var(--font-size-btn);
+    color: white;
+    font-weight: 600;
+}
+
+                                                /* SECTION 1 */
+
+.section-1-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.section-1-content img{
+    justify-self: left;
+}
+.section-1-content p, h4{
+    text-align: left;
+    max-width: 500px;  
+}
+
+.section-itens h4{
+    margin: 30px 0 10px;
+}
+
+                                                /* SECTION 2 */
+
+.section-2-content{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2-content img{
+    margin: 100px auto 100px;
+}
+
+                                                /* SECTION 3 */
+
+.section-3-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.section-3-content article{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: center;
+
+}
+.section-3-content img{
+    margin-bottom: 50px;
+}
+.section-3-content h4{
+    text-align: center;
+}
+
+                                                /* SECTION 4 */
+
+.section-4-content{
+    margin: 100px auto 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+                                                /* SECTION 5 */
+
+.section-5-content h2{
+    margin-bottom: 50px;
+}
+.section-5-content p{
+    margin-bottom: 75px;
+}
+                                                /* FOOTER */
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: hsl(201, 11%, 95%);
+    padding: 25px;
+    color: var(--color-h2);
+}
+.redes{
+    display: flex;
+    gap: 20px;
+}
