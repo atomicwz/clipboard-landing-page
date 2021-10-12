@@ -288,6 +288,9 @@ a{
 @media (max-width: 640px){
 
     /* SECTION 1 */
+    .header-content{
+        margin: 0 auto;
+    }
     .header-content img{
         width: 100px;
     }
@@ -342,7 +345,7 @@ a{
     }
 }
 
-@media (max-width: 350px){
+@media (max-width: 400px){
 
     /* HEADER */
     h2{
@@ -353,6 +356,7 @@ a{
     }
     .header-content{
         padding: 75px 10px;
+        
     }
     .header-content h1{
         font-size: 1.7rem;
