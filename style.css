@@ -48,17 +48,24 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .header-content h1{
     font-size: 2.8rem;
+    animation: animacao1 0.8s ease-in-out;
+}
+.header-content h2{
+    animation: animacao1 0.8s ease-in-out;
 }
 .header-content p{
     font-weight: 300;
     margin-top: 40px;
     max-width: 70%;
     font-size: 1.2rem;
+    animation: animacao1 0.4s ease-in-out;
 }
 .btn-header{
+    animation: animacao1 0.8s ease-in-out;
     display: flex;
     gap: 20px;
 
@@ -380,4 +387,28 @@ a{
     footer{
         margin-top: 50px;
     }
+}
+
+@keyframes animacao1 {
+
+    0%{
+        opacity: 0;
+        transform: translate3d(-30px, 0, 0);
+        transition: .4s;
+     }
+    100%{
+        opacity: 1;
+        transition: .4s;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* ANIMAÇÃO JS */
+
+.scroll-js{
+    opacity: 0;
+}
+.scroll-js.ativo{
+    opacity: 1;
+    animation: animacao1 0.4s ease-in-out;
 }
