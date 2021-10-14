@@ -240,9 +240,11 @@ a{
     }
     .btn-header .btn-mac{
         width: 400px;
+        margin: 0 auto;
     }
     .btn-header .btn-ios{
          width: 400px;
+         margin: 0 auto;
     }
     /* SECTION 3 */
     .section-3-content{
@@ -308,10 +310,12 @@ a{
 
     .btn-header .btn-mac{
         width: 250px;
+        margin: 0 auto;
         
     }
     .btn-header .btn-ios{
          width: 250px;
+         margin: 0 auto;
     }
     .btn-header a{
         font-size: 0.85rem;
@@ -371,11 +375,9 @@ a{
     }
     .btn-header .btn-mac{
         width: 200px;
-        margin: 0 auto;
     }
     .btn-header .btn-ios{
          width: 200px;
-         margin: 0 auto;
     }
     .btn-header a{
         padding: 20px;
